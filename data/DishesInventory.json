@@ -1,0 +1,142 @@
+[
+  {
+    "ingredients": [
+      {
+        "id": "3I",
+        "name": "Arroz",
+        "expirationDate": {
+          "year": 2021,
+          "month": 9,
+          "day": 17
+        },
+        "price": 1500.0,
+        "quantity": 150.0
+      },
+      {
+        "id": "2I",
+        "name": "Papa",
+        "expirationDate": {
+          "year": 2021,
+          "month": 5,
+          "day": 3
+        },
+        "price": 1200.0,
+        "quantity": 150.0
+      },
+      {
+        "id": "4I",
+        "name": "Lentejas",
+        "expirationDate": {
+          "year": 2020,
+          "month": 9,
+          "day": 19
+        },
+        "price": 3000.0,
+        "quantity": 150.0
+      }
+    ],
+    "id": "2D",
+    "name": "Bandeja Paisa pobre",
+    "expirationDate": {
+      "year": 2021,
+      "month": 9,
+      "day": 17
+    },
+    "price": 5700.0,
+    "quantity": 1.0
+  },
+  {
+    "ingredients": [
+      {
+        "id": "2I",
+        "name": "Papa",
+        "expirationDate": {
+          "year": 2021,
+          "month": 5,
+          "day": 3
+        },
+        "price": 1200.0,
+        "quantity": 150.0
+      },
+      {
+        "id": "3I",
+        "name": "Arroz",
+        "expirationDate": {
+          "year": 2021,
+          "month": 9,
+          "day": 17
+        },
+        "price": 1500.0,
+        "quantity": 150.0
+      }
+    ],
+    "id": "3D",
+    "name": "Taza de Arroz",
+    "expirationDate": {
+      "year": 2021,
+      "month": 5,
+      "day": 3
+    },
+    "price": 2700.0,
+    "quantity": 1.0
+  },
+  {
+    "ingredients": [
+      {
+        "id": "2I",
+        "name": "Papa",
+        "expirationDate": {
+          "year": 2021,
+          "month": 5,
+          "day": 3
+        },
+        "price": 1200.0,
+        "quantity": 150.0
+      },
+      {
+        "id": "3I",
+        "name": "Arroz",
+        "expirationDate": {
+          "year": 2021,
+          "month": 9,
+          "day": 17
+        },
+        "price": 1500.0,
+        "quantity": 150.0
+      }
+    ],
+    "id": "4D",
+    "name": "Nombre",
+    "expirationDate": {
+      "year": 2021,
+      "month": 5,
+      "day": 3
+    },
+    "price": 2700.0,
+    "quantity": 1.0
+  },
+  {
+    "ingredients": [
+      {
+        "id": "3I",
+        "name": "Arroz",
+        "expirationDate": {
+          "year": 2021,
+          "month": 9,
+          "day": 17
+        },
+        "price": 1500.0,
+        "quantity": 150.0
+      }
+    ],
+    "id": "5D",
+    "name": "Arroz sin mas",
+    "expirationDate": {
+      "year": 2021,
+      "month": 9,
+      "day": 17
+    },
+    "price": 1500.0,
+    "quantity": 1.0
+  }
+]

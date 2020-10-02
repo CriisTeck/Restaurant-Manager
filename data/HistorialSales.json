@@ -1,0 +1,630 @@
+[
+  {
+    "client": {
+      "document": "20195847",
+      "products": [
+        {
+          "id": "1P",
+          "name": "Chetos",
+          "expirationDate": {
+            "year": 2020,
+            "month": 12,
+            "day": 1
+          },
+          "price": 1000.0,
+          "quantity": 2.0
+        },
+        {
+          "id": "1P",
+          "name": "Chetos",
+          "expirationDate": {
+            "year": 2020,
+            "month": 12,
+            "day": 1
+          },
+          "price": 1000.0,
+          "quantity": 2.0
+        },
+        {
+          "id": "1P",
+          "name": "Chetos",
+          "expirationDate": {
+            "year": 2020,
+            "month": 12,
+            "day": 1
+          },
+          "price": 1000.0,
+          "quantity": 2.0
+        },
+        {
+          "id": "1P",
+          "name": "Chetos",
+          "expirationDate": {
+            "year": 2020,
+            "month": 12,
+            "day": 1
+          },
+          "price": 1000.0,
+          "quantity": 2.0
+        }
+      ],
+      "isDelivery": false
+    },
+    "dateOfSale": {
+      "year": 2020,
+      "month": 9,
+      "day": 18
+    },
+    "totalPrice": 4000.0
+  },
+  {
+    "client": {
+      "document": "201958471",
+      "products": [
+        {
+          "id": "1D",
+          "name": "Taza de Arroz",
+          "expirationDate": {
+            "year": 2020,
+            "month": 11,
+            "day": 19
+          },
+          "price": 1700.0,
+          "quantity": 1.0
+        },
+        {
+          "id": "1D",
+          "name": "Taza de Arroz",
+          "expirationDate": {
+            "year": 2020,
+            "month": 11,
+            "day": 19
+          },
+          "price": 1700.0,
+          "quantity": 1.0
+        },
+        {
+          "id": "1P",
+          "name": "Chetos",
+          "expirationDate": {
+            "year": 2020,
+            "month": 12,
+            "day": 1
+          },
+          "price": 1000.0,
+          "quantity": 2.0
+        },
+        {
+          "id": "1P",
+          "name": "Chetos",
+          "expirationDate": {
+            "year": 2020,
+            "month": 12,
+            "day": 1
+          },
+          "price": 1000.0,
+          "quantity": 2.0
+        },
+        {
+          "id": "1P",
+          "name": "Chetos",
+          "expirationDate": {
+            "year": 2020,
+            "month": 12,
+            "day": 1
+          },
+          "price": 1000.0,
+          "quantity": 2.0
+        }
+      ],
+      "address": "Calle 8 45-71",
+      "isDelivery": true
+    },
+    "dateOfSale": {
+      "year": 2020,
+      "month": 9,
+      "day": 18
+    },
+    "totalPrice": 6400.0
+  },
+  {
+    "client": {
+      "document": "12001115",
+      "products": [
+        {
+          "id": "1P",
+          "name": "Cheetos",
+          "expirationDate": {
+            "year": 2020,
+            "month": 12,
+            "day": 31
+          },
+          "price": 1000.0,
+          "quantity": 1.0
+        },
+        {
+          "id": "1P",
+          "name": "Cheetos",
+          "expirationDate": {
+            "year": 2020,
+            "month": 12,
+            "day": 31
+          },
+          "price": 1000.0,
+          "quantity": 1.0
+        },
+        {
+          "id": "1P",
+          "name": "Cheetos",
+          "expirationDate": {
+            "year": 2020,
+            "month": 12,
+            "day": 31
+          },
+          "price": 1000.0,
+          "quantity": 1.0
+        },
+        {
+          "id": "1D",
+          "name": "Taza de Arroz",
+          "expirationDate": {
+            "year": 2020,
+            "month": 11,
+            "day": 19
+          },
+          "price": 1700.0,
+          "quantity": 1.0
+        },
+        {
+          "id": "1D",
+          "name": "Taza de Arroz",
+          "expirationDate": {
+            "year": 2020,
+            "month": 11,
+            "day": 19
+          },
+          "price": 1700.0,
+          "quantity": 1.0
+        }
+      ],
+      "address": "Carrera 45 #78-7",
+      "isDelivery": true
+    },
+    "dateOfSale": {
+      "year": 2020,
+      "month": 9,
+      "day": 18
+    },
+    "totalPrice": 6400.0
+  },
+  {
+    "client": {
+      "document": "1002569569",
+      "products": [
+        {
+          "id": "1P",
+          "name": "Cheetos",
+          "expirationDate": {
+            "year": 2020,
+            "month": 12,
+            "day": 31
+          },
+          "price": 1000.0,
+          "quantity": 1.0
+        },
+        {
+          "id": "1P",
+          "name": "Cheetos",
+          "expirationDate": {
+            "year": 2020,
+            "month": 12,
+            "day": 31
+          },
+          "price": 1000.0,
+          "quantity": 1.0
+        },
+        {
+          "id": "1P",
+          "name": "Cheetos",
+          "expirationDate": {
+            "year": 2020,
+            "month": 12,
+            "day": 31
+          },
+          "price": 1000.0,
+          "quantity": 1.0
+        },
+        {
+          "id": "1P",
+          "name": "Cheetos",
+          "expirationDate": {
+            "year": 2020,
+            "month": 12,
+            "day": 31
+          },
+          "price": 1000.0,
+          "quantity": 1.0
+        },
+        {
+          "id": "1P",
+          "name": "Cheetos",
+          "expirationDate": {
+            "year": 2020,
+            "month": 12,
+            "day": 31
+          },
+          "price": 1000.0,
+          "quantity": 1.0
+        },
+        {
+          "id": "1P",
+          "name": "Cheetos",
+          "expirationDate": {
+            "year": 2020,
+            "month": 12,
+            "day": 31
+          },
+          "price": 1000.0,
+          "quantity": 1.0
+        },
+        {
+          "id": "1P",
+          "name": "Cheetos",
+          "expirationDate": {
+            "year": 2020,
+            "month": 12,
+            "day": 31
+          },
+          "price": 1000.0,
+          "quantity": 1.0
+        },
+        {
+          "id": "1P",
+          "name": "Cheetos",
+          "expirationDate": {
+            "year": 2020,
+            "month": 12,
+            "day": 31
+          },
+          "price": 1000.0,
+          "quantity": 1.0
+        },
+        {
+          "id": "1P",
+          "name": "Cheetos",
+          "expirationDate": {
+            "year": 2020,
+            "month": 12,
+            "day": 31
+          },
+          "price": 1000.0,
+          "quantity": 1.0
+        }
+      ],
+      "isDelivery": false
+    },
+    "dateOfSale": {
+      "year": 2020,
+      "month": 9,
+      "day": 18
+    },
+    "totalPrice": 9000.0
+  },
+  {
+    "client": {
+      "document": "10000000",
+      "products": [
+        {
+          "id": "1P",
+          "name": "Cheetos",
+          "expirationDate": {
+            "year": 2020,
+            "month": 12,
+            "day": 31
+          },
+          "price": 1000.0,
+          "quantity": 1.0
+        },
+        {
+          "id": "2P",
+          "name": "Doritos",
+          "expirationDate": {
+            "year": 2020,
+            "month": 9,
+            "day": 26
+          },
+          "price": 1500.0,
+          "quantity": 50.0
+        },
+        {
+          "id": "2P",
+          "name": "Doritos",
+          "expirationDate": {
+            "year": 2020,
+            "month": 9,
+            "day": 26
+          },
+          "price": 1500.0,
+          "quantity": 50.0
+        },
+        {
+          "id": "3P",
+          "name": "Detodito",
+          "expirationDate": {
+            "year": 2021,
+            "month": 9,
+            "day": 1
+          },
+          "price": 2000.0,
+          "quantity": 50.0
+        },
+        {
+          "id": "1D",
+          "name": "Taza de Arroz",
+          "expirationDate": {
+            "year": 2020,
+            "month": 11,
+            "day": 19
+          },
+          "price": 1700.0,
+          "quantity": 1.0
+        },
+        {
+          "id": "2D",
+          "name": "Bandeja Paisa pobre",
+          "expirationDate": {
+            "year": 2021,
+            "month": 9,
+            "day": 17
+          },
+          "price": 0.0,
+          "quantity": 1.0
+        }
+      ],
+      "isDelivery": false
+    },
+    "dateOfSale": {
+      "year": 2020,
+      "month": 9,
+      "day": 18
+    },
+    "totalPrice": 7700.0
+  },
+  {
+    "client": {
+      "document": "15220000",
+      "products": [
+        {
+          "id": "2D",
+          "name": "Bandeja Paisa pobre",
+          "expirationDate": {
+            "year": 2021,
+            "month": 9,
+            "day": 17
+          },
+          "price": 5700.0,
+          "quantity": 1.0
+        },
+        {
+          "id": "2P",
+          "name": "Doritos",
+          "expirationDate": {
+            "year": 2020,
+            "month": 9,
+            "day": 26
+          },
+          "price": 1500.0,
+          "quantity": 50.0
+        },
+        {
+          "id": "1P",
+          "name": "Cheetos",
+          "expirationDate": {
+            "year": 2020,
+            "month": 12,
+            "day": 31
+          },
+          "price": 1000.0,
+          "quantity": 1.0
+        },
+        {
+          "id": "2D",
+          "name": "Bandeja Paisa pobre",
+          "expirationDate": {
+            "year": 2021,
+            "month": 9,
+            "day": 17
+          },
+          "price": 5700.0,
+          "quantity": 1.0
+        }
+      ],
+      "isDelivery": false
+    },
+    "dateOfSale": {
+      "year": 2020,
+      "month": 9,
+      "day": 25
+    },
+    "totalPrice": 13900.0
+  },
+  {
+    "client": {
+      "document": "85747485",
+      "products": [
+        {
+          "id": "1P",
+          "name": "Cheetos",
+          "expirationDate": {
+            "year": 2020,
+            "month": 12,
+            "day": 31
+          },
+          "price": 1000.0,
+          "quantity": 1.0
+        },
+        {
+          "id": "2D",
+          "name": "Bandeja Paisa pobre",
+          "expirationDate": {
+            "year": 2021,
+            "month": 9,
+            "day": 17
+          },
+          "price": 5700.0,
+          "quantity": 1.0
+        }
+      ],
+      "isDelivery": false
+    },
+    "dateOfSale": {
+      "year": 2020,
+      "month": 9,
+      "day": 25
+    },
+    "totalPrice": 6700.0
+  },
+  {
+    "client": {
+      "document": "25440",
+      "products": [
+        {
+          "id": "2P",
+          "name": "Doritos",
+          "expirationDate": {
+            "year": 2020,
+            "month": 9,
+            "day": 26
+          },
+          "price": 1500.0,
+          "quantity": 50.0
+        },
+        {
+          "id": "3D",
+          "name": "Taza de Arroz",
+          "expirationDate": {
+            "year": 2021,
+            "month": 5,
+            "day": 3
+          },
+          "price": 2700.0,
+          "quantity": 1.0
+        },
+        {
+          "id": "5D",
+          "name": "Arroz sin mas",
+          "expirationDate": {
+            "year": 2021,
+            "month": 9,
+            "day": 17
+          },
+          "price": 1500.0,
+          "quantity": 1.0
+        }
+      ],
+      "isDelivery": false
+    },
+    "dateOfSale": {
+      "year": 2020,
+      "month": 9,
+      "day": 25
+    },
+    "totalPrice": 5700.0
+  },
+  {
+    "client": {
+      "document": "",
+      "products": [
+        {
+          "id": "1P",
+          "name": "Cheetos",
+          "expirationDate": {
+            "year": 2020,
+            "month": 12,
+            "day": 31
+          },
+          "price": 1000.0,
+          "quantity": 1.0
+        },
+        {
+          "id": "1P",
+          "name": "Cheetos",
+          "expirationDate": {
+            "year": 2020,
+            "month": 12,
+            "day": 31
+          },
+          "price": 1000.0,
+          "quantity": 1.0
+        },
+        {
+          "id": "1P",
+          "name": "Cheetos",
+          "expirationDate": {
+            "year": 2020,
+            "month": 12,
+            "day": 31
+          },
+          "price": 1000.0,
+          "quantity": 1.0
+        },
+        {
+          "id": "1P",
+          "name": "Cheetos",
+          "expirationDate": {
+            "year": 2020,
+            "month": 12,
+            "day": 31
+          },
+          "price": 1000.0,
+          "quantity": 1.0
+        },
+        {
+          "id": "4D",
+          "name": "Nombre",
+          "expirationDate": {
+            "year": 2021,
+            "month": 5,
+            "day": 3
+          },
+          "price": 2700.0,
+          "quantity": 1.0
+        }
+      ],
+      "address": "",
+      "isDelivery": true
+    },
+    "dateOfSale": {
+      "year": 2020,
+      "month": 9,
+      "day": 25
+    },
+    "totalPrice": 6700.0
+  },
+  {
+    "client": {
+      "document": "",
+      "products": [
+        {
+          "id": "2D",
+          "name": "Bandeja Paisa pobre",
+          "expirationDate": {
+            "year": 2021,
+            "month": 9,
+            "day": 17
+          },
+          "price": 5700.0,
+          "quantity": 1.0
+        }
+      ],
+      "address": "",
+      "isDelivery": true
+    },
+    "dateOfSale": {
+      "year": 2020,
+      "month": 9,
+      "day": 25
+    },
+    "totalPrice": 5700.0
+  }
+]

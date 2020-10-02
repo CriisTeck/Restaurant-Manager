@@ -1,0 +1,35 @@
+[
+  {
+    "id": "1P",
+    "name": "Cheetos",
+    "expirationDate": {
+      "year": 2020,
+      "month": 12,
+      "day": 31
+    },
+    "price": 1000.0,
+    "quantity": 1.0
+  },
+  {
+    "id": "2P",
+    "name": "Doritos",
+    "expirationDate": {
+      "year": 2020,
+      "month": 9,
+      "day": 26
+    },
+    "price": 1500.0,
+    "quantity": 50.0
+  },
+  {
+    "id": "3P",
+    "name": "Detodito",
+    "expirationDate": {
+      "year": 2021,
+      "month": 9,
+      "day": 1
+    },
+    "price": 2000.0,
+    "quantity": 50.0
+  }
+]
