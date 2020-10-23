@@ -14,6 +14,7 @@ import java.lang.reflect.Type;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class LoaderInventory {
 
@@ -27,6 +28,12 @@ public class LoaderInventory {
         return jsonString.toString();
     }
 
+    /**
+     * Load Dishes data from json file.
+     * @param URL String with the json path file.
+     * @return {@link ArrayList} with the dishes json data.
+     * @throws IOException Throws a Exception.
+     */
     public static ArrayList<Dish> loadDishes(String URL) throws IOException {
         Gson gson = createGSON();
         String jsonString = getStringJSON(URL);
@@ -38,17 +45,27 @@ public class LoaderInventory {
     /**
      * Metodo que crea un objeto Gson, pero que recibe un string del formato "d/MM/yyyy" en el archivo json
      * y este se encarga de convertir ese String a un Objeto de tipo LocalDate.
-     * @return Retorna instancia del objeto Gson con
+     * @return Gson object with Localdate format.
      */
     private static Gson createGSONWithLocalDate() {
         return new GsonBuilder().registerTypeAdapter(LocalDate.class, (JsonDeserializer<LocalDate>)
                 (json, typeOfT, context) -> LocalDate.parse(json.getAsString(), DateTimeFormatter.ofPattern("d/MM/yyyy"))).create();
     }
 
+    /**
+     * Create a Gson Object.
+     * @return Instance of {@link Gson}
+     */
     private static Gson createGSON() {
         return new Gson();
     }
 
+    /**
+     * Load food-packages data from json file.
+     * @param URL String with the json path file.
+     * @return List of type:  {@link java.util.ArrayList} with de json data.
+     * @throws IOException Throws IOException.
+     */
     public static ArrayList<FoodPackage> loadFoodPackage(String URL) throws IOException {
         Gson gson = createGSON();
         String jsonString = getStringJSON(URL);

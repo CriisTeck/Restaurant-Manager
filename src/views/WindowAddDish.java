@@ -9,7 +9,7 @@ import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Objects;
 
 public class WindowAddDish extends JDialog implements WindowListener {
     private JLabel lblTitle;
@@ -57,12 +57,7 @@ public class WindowAddDish extends JDialog implements WindowListener {
         cmbSelectIngredients.setEditable(true);
         cmbSelectIngredients.getEditor().getEditorComponent().addKeyListener(kListener);
         btnAddIngredient = new JButton("Agregar");
-        btnAddIngredient.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                setNewProduct_inTable(getSelectedItem());
-            }
-        });
+        btnAddIngredient.addActionListener(e -> setNewProduct_inTable(getSelectedItem()));
 
         jspTable = new JScrollPane();
         tblIngredients = new JTable();
@@ -151,7 +146,7 @@ public class WindowAddDish extends JDialog implements WindowListener {
     public Ingredient getSelectedItem() {
         cmbSelectIngredients.getEditor().selectAll();
         cmbSelectIngredients.showPopup();
-        if (cmbSelectIngredients.getSelectedItem().getClass() != Ingredient.class && !cmbSelectIngredients.getEditor().getItem().toString().equals(""))
+        if (Objects.requireNonNull(cmbSelectIngredients.getSelectedItem()).getClass() != Ingredient.class && !cmbSelectIngredients.getEditor().getItem().toString().equals(""))
             return (Ingredient) cmbSelectIngredients.getItemAt(1);
         else if (cmbSelectIngredients.getSelectedItem().getClass() == Ingredient.class)
             return (Ingredient) cmbSelectIngredients.getSelectedItem();
@@ -181,7 +176,8 @@ public class WindowAddDish extends JDialog implements WindowListener {
     }
 
     public boolean isFillAlCamps() {
-        return !txtName.equals("") && tblIngredients.getRowCount() != 0;
+        //noinspection EqualsBetweenInconvertibleTypes
+        return !Objects.equals(txtName, "") && tblIngredients.getRowCount() != 0;
     }
 
     public ArrayList<String> getIngredients(){

@@ -30,7 +30,7 @@ public class ControllerApp implements ActionListener, KeyListener {
 
     public ControllerApp() {
         try {
-            view = new PrincipalWindow(this, this);
+            view = new PrincipalWindow(this);
             model = new Restaurant();
             viewSell = new WindowSell(this, this, view, true);
             viewDelivery = new WindowDelivery(this, this, view, true);

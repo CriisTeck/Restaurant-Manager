@@ -8,7 +8,6 @@ import persistence.WriterInventory;
 import java.io.IOException;
 import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -21,10 +20,6 @@ public class Restaurant {
     public Restaurant() throws IOException {
         fillList();
         writeData();
-    }
-
-    public void random() {
-        dishList.sort((Comparator) Comparator.comparing(o -> new Integer(((Dish) (o)).getId())));
     }
 
     private void fillList() throws IOException {
@@ -153,7 +148,7 @@ public class Restaurant {
     public String generateIdIngredient() {
         String newId = (ingredientList.size() + 1) + "I";
         int aux = 0;
-        while (!verifyId(newId))
+        while (verifyId(newId))
             newId = (ingredientList.size() + ++aux) + "I";
         return newId;
 
@@ -162,15 +157,15 @@ public class Restaurant {
     private boolean verifyId(String id) {
         for (int i = 0; i < getAllProducts().size(); i++) {
             if (getAllProducts().get(i).getId().equalsIgnoreCase(id))
-                return false;
+                return true;
         }
-        return true;
+        return false;
     }
 
     public String generateIdFoodPackage() {
         String newId = (foodPackagesList.size() + 1) + "P";
         int aux = 0;
-        while (!verifyId(newId))
+        while (verifyId(newId))
             newId = (foodPackagesList.size() + ++aux) + "P";
         return newId;
     }
@@ -178,7 +173,7 @@ public class Restaurant {
     public String generateIdDish() {
         String newId = (dishList.size() + 1) + "D";
         int aux = 0;
-        while (!verifyId(newId))
+        while (verifyId(newId))
             newId = (dishList.size() + ++aux) + "D";
         return newId;
     }

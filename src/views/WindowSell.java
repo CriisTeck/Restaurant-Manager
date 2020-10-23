@@ -30,7 +30,8 @@ public class WindowSell extends JDialog {
     }
 
     private void positionateComponents() {
-        GridBagConstraints gbc = new GridBagConstraints();
+        GridBagConstraints gbc;
+        gbc = new GridBagConstraints();
         gbc.gridy = 0;
         gbc.gridx = 0;
         gbc.weightx = 1;
